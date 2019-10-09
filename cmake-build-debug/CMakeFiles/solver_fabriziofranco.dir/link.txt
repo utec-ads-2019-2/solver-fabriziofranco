@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/solver_fabriziofranco.dir/main.cpp.o  -o solver_fabriziofranco 
