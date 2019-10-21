@@ -138,8 +138,9 @@ public:
             postfijo(expresion);
             resolver_variables();
             Crear_arbol();
-            if(root)
+            if(root) {
                 return root->Evaluar();
+            }
             return double();
         }
 

@@ -8,7 +8,9 @@ int main(){
 
 
     Evaluador evaluador;
-    cout<<evaluador.Resolver("7/4*((3+1)*3)+            3))))))))))");
+    string equation;
+    cin >> equation;
+    cout<<evaluador.Resolver(equation);
     return 0;
 }
 

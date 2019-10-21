@@ -38,7 +38,10 @@ struct Node {
     }
 
     double Evaluar(){
-        eval(this);
+        //eval(this);
+        // y el return? No probaste que te faltaba algo
+
+        return eval(this);
     }
 
 private:
